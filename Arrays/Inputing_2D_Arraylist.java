@@ -15,9 +15,6 @@ public class Inputing_2D_Arraylist {
             }
         }
         // printing the 2D arraylist
-        for (int i = 0; i < 3; i++) {
-            list.get(i);
-        }
         System.out.println(list);
     }
 }
