@@ -11,7 +11,7 @@ public class code {
             mid = start + (end - start) / 2;
             if (arr[mid] == target) {
                 System.out.println("Element found at index:" + mid);
-                break;
+                System.exit(0);
             } else if (arr[mid] < target) {
                 start = mid + 1;
             } else {
@@ -19,6 +19,6 @@ public class code {
             }
 
         }
-
+        System.out.println("Element not found");
     }
 }
