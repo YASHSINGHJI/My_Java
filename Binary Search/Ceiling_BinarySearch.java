@@ -29,6 +29,5 @@ public class Ceiling_BinarySearch {
             }
         }
         return arr[start];
-
     }
 }
