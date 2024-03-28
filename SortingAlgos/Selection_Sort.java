@@ -24,3 +24,8 @@ public class Selection_Sort {
         }
     }
 }
+
+/*
+ * selection sort is basically finding the minimum / maximum element
+ * in the array and putting it in it's correct position in the array
+ */
