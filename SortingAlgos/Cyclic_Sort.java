@@ -12,7 +12,7 @@ public class Cyclic_Sort {
     static void cyclicSort(int[] arr) {
         int i = 0;
         while (i < arr.length) {
-            if (arr[i] - 1 != i) {
+            if (arr[arr[i] - 1] != arr[i]) {
                 int temp = arr[arr[i] - 1];
                 arr[arr[i] - 1] = arr[i];
                 arr[i] = temp;
