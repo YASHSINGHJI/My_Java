@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Find_ith_bit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number and the ith bit to find: ");
         int n = sc.nextInt();
         int i = sc.nextInt();
         System.out.println(find_ith_bit(n, i));
