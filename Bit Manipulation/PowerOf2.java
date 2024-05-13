@@ -7,11 +7,9 @@ public class PowerOf2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
-        if ((n & (n - 1)) == 0) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
+        int ans = n & (n - 1);
+        System.out.println(ans == 0 ? "Yes" : "No");
+
     }
 }
 
