@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Nth_MagicNumber {
     public static void main(String[] args) {
-        System.out.println("Enter the value of n: ");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of n: ");
         int n = sc.nextInt();
