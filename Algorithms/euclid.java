@@ -11,6 +11,7 @@ public class euclid {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.println("The GCD of the two numbers is: " + gcd(a, b));
+        System.out.println("The LCM of the two numbers is: " + (a * b) / gcd(a, b));
     }
 
     static int gcd(int a, int b) {
