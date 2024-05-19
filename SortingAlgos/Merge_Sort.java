@@ -47,3 +47,5 @@ public class Merge_Sort {
         return result;
     }
 }
+
+// Time Complexity: O(n*logn)
