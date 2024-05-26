@@ -18,3 +18,6 @@ public class MazeProblem {
         }
     }
 }
+
+// D --> Down
+// R --> Right
