@@ -12,5 +12,6 @@ public class Create_Class {
         s.rno = 12;
         s.marks = 1000;
         s.name = "Rahul";
+        // Alternatively, Student s=new Student(12,1000,"Rahul");
     }
 }
