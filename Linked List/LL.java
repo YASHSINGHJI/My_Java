@@ -1,3 +1,4 @@
+// * Questions only based on cycle detection and reversal of linked list
 public class LL {
 
     private Node head;
