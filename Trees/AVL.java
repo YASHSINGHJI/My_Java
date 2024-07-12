@@ -60,6 +60,7 @@ public class AVL {
         p.height = Math.max(height(p.left), height(p.right)) + 1;
         c.height = Math.max(height(c.left), height(c.right)) + 1;
         return p;
+
     }
 
     public static Node leftRotate(Node p) {
@@ -72,6 +73,4 @@ public class AVL {
         c.height = Math.max(height(c.left), height(c.right)) + 1;
         return c;
     }
-
-    public Node root;
 }
