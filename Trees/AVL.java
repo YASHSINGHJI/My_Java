@@ -72,4 +72,6 @@ public class AVL {
         c.height = Math.max(height(c.left), height(c.right)) + 1;
         return c;
     }
+
+    public Node root;
 }
