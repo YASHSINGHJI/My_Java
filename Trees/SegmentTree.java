@@ -1,3 +1,5 @@
+package Trees;
+
 class SegmentTree {
 
     private static class Node {
