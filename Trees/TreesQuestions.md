@@ -1,3 +1,5 @@
+# Breadth-First Search(BFS)
+
 ### Question 1:
 
 Binary Tree level order traversal. [[Link here]](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
@@ -25,3 +27,7 @@ Right most node list. [[Link Here]](https://leetcode.com/problems/binary-tree-ri
 ### Question 7:
 
 Cousins(Same level but different parent node) in a binary tree. [[Link Here]](https://leetcode.com/problems/cousins-in-binary-tree/description/) [Note: Function also present for finding node in tree and checking if two nodes are siblings]
+
+### Question 8:
+
+Mirror Tree. [[Link Here]](https://leetcode.com/problems/symmetric-tree/)
