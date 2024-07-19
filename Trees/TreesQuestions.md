@@ -65,3 +65,7 @@ Lowest common ancestor of BST. [[Link Here]](https://leetcode.com/problems/lowes
 ### Question 8:
 
 Kth smallest element in BST. [[Link Here]](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
+### Question 9:
+
+Construct Binary Tree from Preorder and Inorder Traversal. [[Link Here]](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
