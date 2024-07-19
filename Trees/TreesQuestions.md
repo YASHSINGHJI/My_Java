@@ -57,3 +57,11 @@ Flatten Binary Tree to Linked List. [[Link Here]](https://leetcode.com/problems/
 ### Question 6:
 
 Validate BST. [[Link Here]](https://leetcode.com/problems/validate-binary-search-tree/submissions/1326213799/)
+
+### Question 7:
+
+Lowest common ancestor of BST. [[Link Here]](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+
+### Question 8:
+
+Kth smallest element in BST. [[Link Here]](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
