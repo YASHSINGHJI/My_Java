@@ -31,3 +31,9 @@ Cousins(Same level but different parent node) in a binary tree. [[Link Here]](ht
 ### Question 8:
 
 Mirror Tree. [[Link Here]](https://leetcode.com/problems/symmetric-tree/)
+
+# Depth-First Search(DFS)
+
+### Question 1:
+
+Diameter of binary tree. [[Link Here]](https://leetcode.com/problems/diameter-of-binary-tree/)
