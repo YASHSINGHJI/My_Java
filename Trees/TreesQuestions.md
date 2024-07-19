@@ -37,3 +37,23 @@ Mirror Tree. [[Link Here]](https://leetcode.com/problems/symmetric-tree/)
 ### Question 1:
 
 Diameter of binary tree. [[Link Here]](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+### Question 2:
+
+Invert a binary tree. [[Link Here]](https://leetcode.com/problems/invert-binary-tree/description/)
+
+### Question 3:
+
+Maximum depth of binary tree. [[Link Here]](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+
+### Question 4:
+
+Convert sorted array to BST. [[Link Here]](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+### Question 5:
+
+Flatten Binary Tree to Linked List. [[Link Here]](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+### Question 6:
+
+Validate BST. [[Link Here]](https://leetcode.com/problems/validate-binary-search-tree/submissions/1326213799/)
