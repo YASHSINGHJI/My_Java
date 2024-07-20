@@ -69,3 +69,11 @@ Kth smallest element in BST. [[Link Here]](https://leetcode.com/problems/kth-sma
 ### Question 9:
 
 Construct Binary Tree from Preorder and Inorder Traversal. [[Link Here]](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+
+### Question 10:
+
+Path sum. [[Link Here]](https://leetcode.com/problems/path-sum/description/)
+
+### Question 11:
+
+Sum from root to leaf nodes .[[Link Here]](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
