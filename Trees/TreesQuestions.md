@@ -77,3 +77,7 @@ Path sum. [[Link Here]](https://leetcode.com/problems/path-sum/description/)
 ### Question 11:
 
 Sum from root to leaf nodes .[[Link Here]](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+
+### Question 12:
+
+Maximum Path Sum. [[Link Here]](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
