@@ -13,29 +13,37 @@ public class Quick_Sort {
         if (low >= high) {
             return;
         }
-        int s = low;
-        int e = high;
-        int m = (s + e) / 2;
-        while (s <= e) {
-            if (arr[s] < arr[m]) {
-                s++;
-            }
-            if (arr[e] > arr[m]) {
-                e--;
-            }
-            if (s <= e) {
-                int temp = arr[s];
-                arr[s] = arr[e];
-                arr[e] = temp;
-                s++;
-                e--;
-            }
 
-        }
-        quicksort(arr, low, e);
-        quicksort(arr, s, high);
+        int pivot_idx = findPivot(arr, low, high);
+        quicksort(arr, low, pivot_idx - 1);
+        quicksort(arr, pivot_idx + 1, high);
     }
 
+    static int findPivot(int[] arr, int low, int high) {
+        int pivot = arr[low];
+        int i = low + 1;
+        int j = high;
+
+        while (i <= j) {
+            while (i <= j && arr[i] <= pivot) {
+                i++;
+            }
+            while (i <= j && arr[j] > pivot) {
+                j--;
+            }
+            if (i < j) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Swap the pivot element with the element at index j
+        arr[low] = arr[j];
+        arr[j] = pivot;
+        return j;
+
+    }
 }
 
 // Time Complexity: O(n*logn)
